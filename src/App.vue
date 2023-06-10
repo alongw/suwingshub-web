@@ -2,7 +2,7 @@
 import { NImage } from "naive-ui";
 import axios from "axios";
 import { ref } from "vue";
-const baseURL = "http://wr2.liyxi.tk:10001/";
+const baseURL = "https://onewr.eastus.cloudapp.azure.com";
 const imgdata = ref();
 interface imgdata {
   url: string;
